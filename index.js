@@ -43,7 +43,7 @@ const access_token = await bitgo.addAccessToken({
     "wallet_view_all", // View transactions for all wallets
     "wallet_view_enterprise" // View enterprise transactions
     ],
-  // Optional: Set a spending limit.
+  // Optional: Set a spending limit
   spendingLimits: [
     {
       coin: "tbtc4",
